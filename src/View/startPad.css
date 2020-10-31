@@ -1,0 +1,10 @@
+.root{
+    -fx-background-image:url("mario.jpg");
+    -fx-background-size:1300px 950px;
+}
+
+Button {
+   -fx-text-fill: #FFFFFF;
+    -fx-background-color: #AB4642;
+    -fx-background-radius: 4;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootpane" onMouseClicked="#LoadMyView" prefHeight="585.0" prefWidth="903.0" stylesheets="@startPad.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.startPatController">
+   <children>
+      <Button fx:id="Button" layoutX="691.0" layoutY="382.0" mnemonicParsing="false" onAction="#LoadMyView" onMouseClicked="#LoadMyView" prefHeight="77.0" prefWidth="92.0" text="New Game" AnchorPane.bottomAnchor="212.0" AnchorPane.leftAnchor="691.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="382.0">
+       <font>
+         <Font size="36.0" />
+       </font>
+      </Button>
+   </children>
+</AnchorPane>
